@@ -14,8 +14,8 @@ setup-deps:
 
 format:
 	@echo "----- running gofmt -----"
-	@gofmt -w -s cmd/stack/*.go
+	@gofmt -w -s .
 	@echo "----- running goimports -----"
-	@goimports -w cmd/stack/*.go
+	@goimports -w .
 
 .PHONY: test
