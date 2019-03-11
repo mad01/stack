@@ -1,6 +1,6 @@
 package provisioner
 
-import "github.com/visionmedia/stack/pkg/logger/tty"
+import tty_logger "github.com/visionmedia/stack/pkg/logger/tty"
 import "github.com/bmizerany/assert"
 import "testing"
 import "bytes"

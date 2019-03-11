@@ -4,8 +4,8 @@
 //
 package provisioner
 
-import "github.com/visionmedia/stack/pkg/logger/interface"
-import "github.com/visionmedia/stack/pkg/commit-log"
+import logger_interface "github.com/visionmedia/stack/pkg/logger/interface"
+import commit_log "github.com/visionmedia/stack/pkg/commit-log"
 import "github.com/visionmedia/stack/pkg/rewriter"
 import "encoding/hex"
 import "crypto/sha1"
