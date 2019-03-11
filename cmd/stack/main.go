@@ -1,8 +1,8 @@
 package main
 
-import "github.com/visionmedia/stack/pkg/logger/interactive"
-import "github.com/visionmedia/stack/pkg/logger/plain"
-import "github.com/visionmedia/stack/pkg/logger/tty"
+import interactive_logger "github.com/visionmedia/stack/pkg/logger/interactive"
+import plain_logger "github.com/visionmedia/stack/pkg/logger/plain"
+import tty_logger "github.com/visionmedia/stack/pkg/logger/tty"
 import "github.com/visionmedia/stack/pkg/provisioner"
 import "github.com/visionmedia/docopt"
 import "path/filepath"
